@@ -64,7 +64,7 @@ function escribirLetrasCorrectas(lineas){
 function escribirLetrasIncorrectas(letrasIncorreectas){
     brush.fillStyle = "red";
     brush.strokeStyle = "red";
-    brush.font = "bold" + (tamanoFuente * 0.75) + "px Playfair Display";
+    brush.font = "bold" + (tamanoFuente * 2) + "px Playfair Display";
     brush.textAlign = "center";
     brush.beginPath();
     brush.fillText(letrasIncorreectas.join(""), ancho * 0.5, alto * 0.7);
@@ -75,7 +75,7 @@ function escribirLetrasIncorrectas(letrasIncorreectas){
 function escribirPalabraCorrecta(){
     brush.fillStyle = "black";
     brush.strokeStyle = "black";
-    brush.font = "bold 20px Playfair Display";
+    brush.font = "bold 22px Playfair Display";
     brush.textAlign = "center";
     brush.beginPath();
     brush.fillText("La Palabra Correcta era " + palabra, ancho * 0.5, alto * 0.95);

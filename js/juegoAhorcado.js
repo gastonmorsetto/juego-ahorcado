@@ -15,7 +15,7 @@ btoIniciarJuego.addEventListener("click", function(event){
     event.preventDefault();
     inputInvisible.blur();
 
-    apagarAnimaciones();
+    desactivarAnimacion();
 
     //Empieza la partida
     inputInvisible.focus();
@@ -89,11 +89,11 @@ function palabraAleatoria(){
 
 //Array conletras que contiene la palabra aleatoria -ordenada y sin repetir-
 function letrasSinRepetir(string){
-    let letas = [];
+    let letras = [];
     let array = string.split('');
     for(let i = 0; i < array.length; i++){
         if(!contiene(array[i], letras)){
-            letas.push(array[i]);
+            letras.push(array[i]);
         }
     }
     return letras.sort();

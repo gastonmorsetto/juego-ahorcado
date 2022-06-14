@@ -1,5 +1,5 @@
 let listaDePalabras = ["Ballena", "Foco", "Raiz", "Estatua", "Foca", "Universidad", "Notebook", "Telefono", "Barco", "Pantalla", "Perro", "Campera", "Automovil", "Correo", "Bicicleta", "Crayon", "Disco", "Posicion","Nube", "Servilleta", "Moneda", "Pensamiento", "Electrodomestico", "Extraño", "Software", "Reunion", "Isla", "Precio", "Araña", "Posibilidad", "Cocodrilo", "Camioneta", "Union", "Interes", "Limite", "Base","Cabello", "Membrillo", "Lampara", "Motivo", "Jabon", "Hombre", "Mendigo", "Pena", "Maestro", "Asiento", "Libertad", "Tiempo", "Boca", "Rana", "Explicacion", "Cuna", "Devoto", "Horoscopo", "Creacion", "Pais", "Serpiente", "Esfuerzo","Titulo", "Boton", "Internet", "Terremoto", "Tarjeta", "Miedo", "Arbol", "Espacio", "Consejo", "Necesidad"];
 
-for (var i = 0; i < listaDepalabras.length; i++){
-    listaDepalabras[i] = listaDepalabras[i].toUpperCase();
+for (var i = 0; i < listaDePalabras.length; i++){
+    listaDePalabras[i] = listaDePalabras[i].toUpperCase();
 }

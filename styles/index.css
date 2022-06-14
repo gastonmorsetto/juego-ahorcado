@@ -12,17 +12,13 @@ body {
     margin: 0px;
 }
 
-.audio {
-    display: none;
-}
-
 .inicio {
     text-align: center;
 }
 
 .imagen {
     filter: drop-shadow(3px 2px 2px black);
-    margin-left: 872px;
+    margin-left: 43%;
 }
 
 

@@ -1,7 +1,7 @@
 //Tomamos Valor Boton e Imput
-let btoAgregarPalabra = document.querySelector("#iniciar-juego");
-let ingresarPalabra = document.querySelector("#ingresar-palabra");
-let btoTexto = document.querySelector("#bto-texto");
+let btoAgregarPalabra = document.querySelector("#boton-agregar-palabra");
+let ingresarPalabra = document.querySelector("#ingresar-nueva-palabra");
+let btoTexto = document.querySelector("#texto-boton");
 
 //Creamos las Variables
 let click = -1;
@@ -26,7 +26,7 @@ btoAgregarPalabra.addEventListener("click", function(event){
             desactivarAnimacion();
         }else{
             click = 1;
-            errorDeEntrada();
+            errorEntrada();
         }
     }
 });
@@ -38,7 +38,7 @@ ingresarPalabra.addEventListener("click", function(event){
 
 //Capturo entrada del input
 function caprurarImput(){
-    return(document.querySelector("#ingresar-palabra").value.toUpperCase());
+    return(document.querySelector("#ingresar-nueva-palabra").value.toUpperCase());
 }
 
 //Valido que no existan carateres especiales y tengan entre 3 y 17 letras
