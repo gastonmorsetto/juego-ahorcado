@@ -4,11 +4,25 @@
     min-height: 100%;
 }
 
+.keyboard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 24px;
+
+    position: absolute;
+    width: 464px;
+    height: 152px;
+    left: 35%;
+    top: 60%;
+}
+
 /* Inicio Footer */
 footer{
     position: absolute;
     background: url(../imagenes/footer.jpg);
-    margin-top: 49.2%;
+    margin-top: 40.2%;
     width: 100%;
     height: 60px;
     border-top: 1px solid #ffffff;
